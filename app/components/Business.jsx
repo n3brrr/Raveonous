@@ -14,18 +14,27 @@ const business = {
 
 function Business() {
     return (
-        <div className="business">
+      
+        <div className="p-4 w-72 flex flex-between ml-40 mt-15">
           <img src={business.imageSrc} alt={business.name} />
-          <h2>{business.name}</h2>
-          <p className="business-address"> 
-            {business.address},
-            {business.city},
+          
+          <h2 className="text-xl font-bold mb-2">{business.name}</h2>
+          <p className="text-gray-600 text-sm mb-1"> 
+            {business.address}
+          </p>
+          <p className="text-gray-600 text-sm mb-1">
+            {business.city}
+          </p>
+          <p className="text-gray-600 text-sm mb-1">	
             {business.state},
             {business.zipCode}
           </p>
-          <p className="business-category">{business.category}</p>
-          <p className="business-rating">Rating: {business.rating}</p>
-          <p className="business-reviewCount">Reviews: {business.reviewCount}</p>
+        <div className="flex flex-col tetx-right">
+          <p className="text-xl uppercase font-bold text-[#C49847]">{business.category}</p>
+          <p className="text-m font-bold text-[#C49847]">Rating: {business.rating}</p>
+          <p className="tetx-m ">Reviews: {business.reviewCount}</p>
+        </div>
+         
         </div>
     );
 }

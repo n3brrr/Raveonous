@@ -16,7 +16,7 @@ function BusinessList() {
         }
     ];
     return (
-      <div className="flex flex-wrap gap-4 justify-center max-lg:">
+      <div className="Business-List">
         {businesses.map((business) => (
           <Business key={business.id} business={business} />
         ))}
