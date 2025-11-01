@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
-
+import SearchBar from "./components/SearchBar";
+import BusinessList from "./components/BusinessList";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -11,7 +12,9 @@ export default function RootLayout(){
   return (
     <html lang="es">
       <body>
-      <h1 className="text-3xl font-bold red-500">Ravenous</h1>
+        <h1 className="bg-[#C49847] py-4 text-white text-3xl font-bold text-center">Ravenous</h1>
+      <SearchBar />
+      <BusinessList />
       </body>
     </html>
   );
