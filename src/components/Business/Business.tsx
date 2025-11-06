@@ -38,5 +38,4 @@ function Business() {
         </div>
     );
 }
-
 export default Business;
