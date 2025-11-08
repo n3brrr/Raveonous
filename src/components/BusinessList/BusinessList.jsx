@@ -1,23 +1,12 @@
 import React from 'react';
 import Business from '../Business/Business';
 
-function BusinessList() {
-    const businesses = [
-        {
-            id: 1,
-            name: "Papa John's Pizza",
-            address: "123 Main St",
-            city: "Anytown",
-            state: "CA",
-            zipCode: "12345",
-            category: "Italian",
-            rating: 4.5,
-            reviewCount: 100,
-        }
-    ];
+
+function BusinessList({ businesses }) {
+   
     return (
-      <div className="Business-List">
-        {businesses.map((business) => (
+      <div className="grid grid-cols-1 pt-5 sm:grid-cols-2 md:grid-cols-3 gap-15 max-w-5xl mx-auto ">
+        {businesses && businesses.map((business) => (
           <Business key={business.id} business={business} />
         ))}
       </div>

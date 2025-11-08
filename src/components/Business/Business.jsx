@@ -1,27 +1,15 @@
 import React from 'react';
 
-const business = {
-    imageSrc: "https://s3-media0.fl.yelpcdn.com/bphoto/cQ1Yoa75m2yUFFbY2xwuqw/o.jpg",
-    name: "Papa John's Pizza",
-    address: "123 Main St",
-    city: "Anytown",
-    state: "CA",
-    zipCode: "12345",
-    category: "Italian",
-    rating: 4.5,
-    reviewCount: 100,
-}
-
-function Business() {
+function Business({ business }) {
     return (
-        <div className="p-4 w-72 flex flex-col ml-40 mt-15">
+        <div className="gap-4 bg-white rounded-lg flex flex-col">
           <img 
             src={business.imageSrc} 
             alt={business.name} 
-            className="w-full h-48 object-cover rounded-t-lg"
+            className="w-full h-48 object-cover"
           />
           
-          <div className="p-4">
+          <div className="mb-4">
             <h2 className="text-xl font-bold mb-4">{business.name}</h2>
             
             <div className="flex justify-between gap-4">
