@@ -4,7 +4,7 @@
 
 **Interactive entertainment platform with TypeScript type safety**
 
- [🚀 Demo](https://weather-app-git-main-n3brrrs-projects.vercel.app/) - [🐛 Issues](https://github.com/n3brrr/raveonous/issues) -  [📖 Docs](#documentation)
+ [🚀 Demo](https://raveonous.vercel.app/) - [🐛 Issues](https://github.com/n3brrr/raveonous/issues) -  [📖 Docs](#documentation)
 
 </div>
 
