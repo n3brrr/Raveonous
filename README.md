@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🎮 Raveonous
+# 🍝 Raveonous
 
 **Interactive entertainment platform with TypeScript type safety**
 
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=whiteshields.io/badge/JavaScript-ES6+-yellow?style=flat&logo=javascript/badge/CSS3-1572B6?style=flat&logo.shields.io/badge/HTML5-E34F26?style/badge/license-DEMO-URL) -  [🐛 Issues](https://github.com/n3brrr/raveonous/issues) -  [📖 Docs](#documentation)
+ [🚀 Demo](https://weather-app-git-main-n3brrrs-projects.vercel.app/) - [🐛 Issues](https://github.com/n3brrr/raveonous/issues) -  [📖 Docs](#documentation)
 
 </div>
 
