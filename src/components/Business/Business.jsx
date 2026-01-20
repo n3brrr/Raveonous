@@ -2,14 +2,14 @@ import React from 'react';
 
 function Business({ business }) {
     return (
-        <div className="gap-4 bg-white rounded-lg flex flex-col">
+        <div className="gap-3 p-2  bg-white rounded-lg flex flex-col hover:scale-105 transition delay-75 duration-500 hover:border-2 hover:border-[#C49847]">
           <img 
             src={business.imageSrc} 
             alt={business.name} 
             className="w-full h-48 object-cover"
           />
           
-          <div className="mb-4">
+          <div className="mb-4 ">
             <h2 className="text-xl font-bold mb-4">{business.name}</h2>
             
             <div className="flex justify-between gap-4">
