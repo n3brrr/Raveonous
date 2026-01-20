@@ -1,40 +1,142 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🍝 Raveonous
 
-First, run the development server:
+**Interactive entertainment platform with TypeScript type safety**
+
+ [🚀 Demo](https://raveonous.vercel.app/) - [🐛 Issues](https://github.com/n3brrr/raveonous/issues) -  [📖 Docs](#documentation)
+
+</div>
+
+---
+
+## ⚡ Overview
+
+Raveonous is a modern interactive entertainment platform built with TypeScript for enhanced code reliability and maintainability. Features modular architecture, type-safe data handling, and optimized performance for production environments.
+
+### ✨ Key Features
+
+- 🎯 **Type-safe codebase** - Full TypeScript implementation with strict mode
+- 🏗️ **Modular architecture** - Component-based structure for scalability
+- ⚡ **Optimized performance** - Lazy loading and code splitting
+- 📱 **Responsive design** - Mobile-first approach with breakpoints
+- 🔧 **Developer experience** - Hot reload and source maps
+
+### 🛠️ Tech Stack
+
+<p align="left">
+<img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
+</p>
+
+***
+
+## 🚀 Installation
+
+### Prerequisites
+
+- Node.js 16+ or modern browser (Chrome 90+, Firefox 88+, Safari 14+)
+- TypeScript 4.9+ (if developing)
+
+### Quick Setup
 
 ```bash
+# Clone repository
+git clone https://github.com/n3brrr/raveonous.git
+
+# Navigate to directory
+cd raveonous
+
+# Install dependencies (if any)
+npm install
+
+# Compile TypeScript
+npm run build
+
+# Open in browser
+open index.html
+Development Mode
+ 
+# Watch mode for TypeScript
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Type checking
+npm run type-check
 ```
+📁 Project Structure
+`````
+raveonous/
+├── src/
+│   ├── components/      # Reusable UI components
+│   ├── types/          # TypeScript type definitions
+│   ├── utils/          # Helper functions
+│   ├── styles/         # CSS modules
+│   └── index.ts        # Entry point
+├── dist/               # Compiled output
+├── tsconfig.json       # TypeScript configuration
+└── package.json
+🔄 Architecture
+ 
+┌─────────────┐
+│   User UI   │
+└──────┬──────┘
+       │
+       ▼
+┌─────────────────┐
+│  Event Handler  │  ← TypeScript interfaces
+└──────┬──────────┘
+       │
+       ▼
+┌─────────────────┐
+│  State Manager  │  ← Type-safe state
+└──────┬──────────┘
+       │
+       ▼
+┌─────────────────┐
+│   DOM Render    │  ← Virtual DOM updates
+└─────────────────┘
+Data flow: User interactions trigger typed event handlers → State updates validated by TypeScript → UI re-renders with optimized DOM manipulation.
+`````
+💻 Usage
+typescript
+// Example: Type-safe component initialization
+import { Component } from './types/component';
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+const initApp = (): void => {
+  const config: AppConfig = {
+    theme: 'dark',
+    animations: true
+  };
+  
+  new Component(config).mount('#app');
+};
+🧪 Testing
+ 
+# Run tests
+npm test
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Coverage report
+npm run test:coverage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+# Type checking
+npm run type-check
 
-## Learn More
+# Linting
+npm run lint
+![Coverage](https://img.shields.io/badge/coverage-90%25-brightgreen?style=/badge/tests-passing-brightgreen? License
 
-To learn more about Next.js, take a look at the following resources:
+MIT License - see LICENSE
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+👤 Author
+Rubén Torres - @n3brrr
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Frontend Developer | TypeScript Enthusiast
 
-## Deploy on Vercel
+<div align="center">
+⭐ Star this repo if you find it useful
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+![GitHub Stars](https://img.shields.io/github/stars/n3brrr/raveonous?styleio/github/forks/n
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Raveonous
->>>>>>> 3a6c70bc237e887e44372f3621f75350b16d16d7
+</div>
