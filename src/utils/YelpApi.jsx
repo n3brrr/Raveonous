@@ -1,0 +1,3 @@
+const YelpApi = 'TZgBWs7uaz9Scqw2-raMj6_XGd3Q4B5d8AFcDyy3i-oTBHexc6lic24EVhY3r8qZSuPHravMdsQP02vxgspgZMXGWqK6ntwTexgpYn03QHb1t3K8xRsQRf_AgvN4aXYx';
+const YelpId = 'GqLrSrfgHYontWQIF7OAeA';
+
