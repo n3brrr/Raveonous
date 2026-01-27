@@ -1,3 +1,16 @@
-const YelpApi = 'TZgBWs7uaz9Scqw2-raMj6_XGd3Q4B5d8AFcDyy3i-oTBHexc6lic24EVhY3r8qZSuPHravMdsQP02vxgspgZMXGWqK6ntwTexgpYn03QHb1t3K8xRsQRf_AgvN4aXYx';
-const YelpId = 'GqLrSrfgHYontWQIF7OAeA';
+const YelpApi = '';
+//const YelpId = '';
 
+const Yelp = {
+    search(term, location, sortBy) {
+        const url = `https://api.yelp.com/v3/businesses/search?term=${term}&location=${location}&sort_by=${sortBy}`;
+        const headers = {
+            Authorization: `Bearer ${YelpApi}`,
+        };
+        return fetch(url, { headers }).then((response) => {
+            return response.json();
+        });
+    }
+}
+
+export default Yelp;
