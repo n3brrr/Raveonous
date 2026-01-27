@@ -1,4 +1,4 @@
-{
+{ 
   "compilerOptions": {
     "target": "ES2017",
     "lib": ["dom", "dom.iterable", "esnext"],
@@ -28,7 +28,9 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts"
-, "src/components/Business/Business.jsx", "src/app/page.jsx", "src/app/layout.jsx", "src/tests/App.tests.jsx"  ],
+    "**/*.mts",
+    "**/*.js",
+    "**/*.jsx"
+  ],
   "exclude": ["node_modules"]
 }
