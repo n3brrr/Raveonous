@@ -1,14 +1,14 @@
 "use client";
 import { useState } from 'react';
 
-function SearchBar() {
+function SearchBar({searchYelp}) {
 
   const [searchTerm, setSearchTerm] = useState('');
   const [searchUbication, setSearchUbication] = useState('');
   const [sortBy, setSortBy] = useState('');
 
   const handleSearch = () => {
-    console.log(`Searching for: ${searchTerm}, in ${searchUbication}, sorted by ${sortBy}`);
+    searchYelp(searchTerm, searchUbication, sortBy);
   };
 
   const handleInputChange = (event) => {
